@@ -1,0 +1,19 @@
+import javax.swing.JOptionPane;
+
+public class NauticalMiles {
+    public static void main(String[] args) {
+        final double KM_PER_NM = 1.852;       // 1 nautical mile = 1.852 kilometers
+        final double MILES_PER_NM = 1.150779; // 1 nautical mile = 1.150779 miles
+
+        double nauticalMiles = 33; // Example value
+        double km = nauticalMiles * KM_PER_NM;
+        double miles = nauticalMiles * MILES_PER_NM;
+
+        JOptionPane.showMessageDialog(
+            null,
+            nauticalMiles + " nautical miles is equal to:\n" +
+            km + " kilometers\n" +
+            miles + " miles"
+        );
+    }
+}
