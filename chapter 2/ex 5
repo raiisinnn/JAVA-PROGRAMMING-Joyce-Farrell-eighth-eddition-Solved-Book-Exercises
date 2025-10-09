@@ -1,3 +1,14 @@
+/*
+Write a Java class that declares named constants to represent the number of
+kilometers (1.852) and the number of miles (1.150779) in a nautical mile. Also
+declare a variable to represent a number of nautical miles and assign a value to it.
+Compute and display, with explanatory text, the value in kilometers and in miles.
+Save the class as NauticalMiles.java.
+b. Convert the NauticalMiles class to an interactive application. Instead of
+assigning a value to the nautical miles variable, accept it from the user as input.
+Save the revised class as NauticalMilesInteractive.java.
+*/
+
 import javax.swing.JOptionPane;
 
 public class NauticalMiles {
