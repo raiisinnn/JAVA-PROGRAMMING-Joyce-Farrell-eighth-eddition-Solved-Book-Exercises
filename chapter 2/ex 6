@@ -1,0 +1,13 @@
+public class InchesToFeet {
+    public static void main(String[] args) {
+
+        final int INCHES_PER_FOOT = 12;  // 1 foot = 12 inches
+        int inches = 810;                 // Example value
+        int feet = inches / INCHES_PER_FOOT;
+        int remainingInches = inches % INCHES_PER_FOOT;
+
+        System.out.println(
+            inches + " inches = " + feet + " feet and " + remainingInches + " inches."
+        );
+    }
+}
